@@ -3,27 +3,55 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		D01CDAD924BFFF070009C1E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01CDAD824BFFF070009C1E3 /* AppDelegate.swift */; };
 		D01CDADB24BFFF070009C1E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01CDADA24BFFF070009C1E3 /* SceneDelegate.swift */; };
-		D01CDADD24BFFF070009C1E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01CDADC24BFFF070009C1E3 /* ViewController.swift */; };
 		D01CDAE024BFFF070009C1E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D01CDADE24BFFF070009C1E3 /* Main.storyboard */; };
-		D01CDAE224BFFF0A0009C1E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D01CDAE124BFFF0A0009C1E3 /* Assets.xcassets */; };
 		D01CDAE524BFFF0A0009C1E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D01CDAE324BFFF0A0009C1E3 /* LaunchScreen.storyboard */; };
+		D05A313A24CBC16600E92BC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D05A313924CBC16600E92BC2 /* Assets.xcassets */; };
+		D05A313C24CDE55000E92BC2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05A313B24CDE55000E92BC2 /* Extensions.swift */; };
+		D05A313F24CDE7AF00E92BC2 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05A313E24CDE7AF00E92BC2 /* SearchViewController.swift */; };
+		D05A314124CDE7F200E92BC2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05A314024CDE7F200E92BC2 /* LoginViewController.swift */; };
+		D05A314324CDED2C00E92BC2 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05A314224CDED2C00E92BC2 /* LoginModel.swift */; };
+		D05A314624CE1CFE00E92BC2 /* Variables.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05A314524CE1CFE00E92BC2 /* Variables.swift */; };
+		D05A314824CE7F7F00E92BC2 /* SearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05A314724CE7F7F00E92BC2 /* SearchModel.swift */; };
+		D05A314C24CF7F9500E92BC2 /* ListMovieData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05A314B24CF7F9500E92BC2 /* ListMovieData.swift */; };
+		D05A315424D35FD300E92BC2 /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05A315324D35FD300E92BC2 /* MovieListViewController.swift */; };
+		D05A315924D3A27B00E92BC2 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05A315724D3A27B00E92BC2 /* MovieCell.swift */; };
+		D05A315A24D3A27B00E92BC2 /* MovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D05A315824D3A27B00E92BC2 /* MovieCell.xib */; };
+		D05A315C24D4F25300E92BC2 /* SingleMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05A315B24D4F25300E92BC2 /* SingleMovieViewController.swift */; };
+		D05A315E24D4F29800E92BC2 /* SingleMovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05A315D24D4F29800E92BC2 /* SingleMovieModel.swift */; };
+		D05A316024D4F8B900E92BC2 /* SingleMovieData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05A315F24D4F8B900E92BC2 /* SingleMovieData.swift */; };
+		E89197856AF13073E9A50E9A /* Pods_Fabflix_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB94C32800C3DE77FD03A51C /* Pods_Fabflix_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AAE8A3BC6934986100D16F79 /* Pods-Fabflix-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fabflix-iOS.release.xcconfig"; path = "Target Support Files/Pods-Fabflix-iOS/Pods-Fabflix-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		D01CDAD524BFFF070009C1E3 /* Fabflix-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fabflix-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D01CDAD824BFFF070009C1E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D01CDADA24BFFF070009C1E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D01CDADC24BFFF070009C1E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D01CDADF24BFFF070009C1E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D01CDAE124BFFF0A0009C1E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D01CDAE424BFFF0A0009C1E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D01CDAE624BFFF0A0009C1E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D05A313924CBC16600E92BC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D05A313B24CDE55000E92BC2 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D05A313E24CDE7AF00E92BC2 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		D05A314024CDE7F200E92BC2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D05A314224CDED2C00E92BC2 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		D05A314524CE1CFE00E92BC2 /* Variables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variables.swift; sourceTree = "<group>"; };
+		D05A314724CE7F7F00E92BC2 /* SearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModel.swift; sourceTree = "<group>"; };
+		D05A314B24CF7F9500E92BC2 /* ListMovieData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMovieData.swift; sourceTree = "<group>"; };
+		D05A315324D35FD300E92BC2 /* MovieListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
+		D05A315724D3A27B00E92BC2 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		D05A315824D3A27B00E92BC2 /* MovieCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieCell.xib; sourceTree = "<group>"; };
+		D05A315B24D4F25300E92BC2 /* SingleMovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleMovieViewController.swift; sourceTree = "<group>"; };
+		D05A315D24D4F29800E92BC2 /* SingleMovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleMovieModel.swift; sourceTree = "<group>"; };
+		D05A315F24D4F8B900E92BC2 /* SingleMovieData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleMovieData.swift; sourceTree = "<group>"; };
+		E4BCB1469C483E7E49211FE1 /* Pods-Fabflix-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fabflix-iOS.debug.xcconfig"; path = "Target Support Files/Pods-Fabflix-iOS/Pods-Fabflix-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		FB94C32800C3DE77FD03A51C /* Pods_Fabflix_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fabflix_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +59,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E89197856AF13073E9A50E9A /* Pods_Fabflix_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C172C395BA3EB46C978BAC62 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4BCB1469C483E7E49211FE1 /* Pods-Fabflix-iOS.debug.xcconfig */,
+				AAE8A3BC6934986100D16F79 /* Pods-Fabflix-iOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D01CDACC24BFFF070009C1E3 = {
 			isa = PBXGroup;
 			children = (
 				D01CDAD724BFFF070009C1E3 /* Fabflix-iOS */,
 				D01CDAD624BFFF070009C1E3 /* Products */,
+				C172C395BA3EB46C978BAC62 /* Pods */,
+				F61ED319846559F3B1979C9F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +98,65 @@
 			children = (
 				D01CDAD824BFFF070009C1E3 /* AppDelegate.swift */,
 				D01CDADA24BFFF070009C1E3 /* SceneDelegate.swift */,
-				D01CDADC24BFFF070009C1E3 /* ViewController.swift */,
-				D01CDADE24BFFF070009C1E3 /* Main.storyboard */,
-				D01CDAE124BFFF0A0009C1E3 /* Assets.xcassets */,
-				D01CDAE324BFFF0A0009C1E3 /* LaunchScreen.storyboard */,
+				D05A313D24CDE55B00E92BC2 /* ExtensionAndVariables */,
+				D05A314424CDED3100E92BC2 /* Model */,
+				D05A313724CBBFB100E92BC2 /* View */,
+				D05A313824CBBFBC00E92BC2 /* Controller */,
+				D05A313924CBC16600E92BC2 /* Assets.xcassets */,
 				D01CDAE624BFFF0A0009C1E3 /* Info.plist */,
 			);
 			path = "Fabflix-iOS";
+			sourceTree = "<group>";
+		};
+		D05A313724CBBFB100E92BC2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D01CDADE24BFFF070009C1E3 /* Main.storyboard */,
+				D01CDAE324BFFF0A0009C1E3 /* LaunchScreen.storyboard */,
+				D05A315724D3A27B00E92BC2 /* MovieCell.swift */,
+				D05A315824D3A27B00E92BC2 /* MovieCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D05A313824CBBFBC00E92BC2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D05A313E24CDE7AF00E92BC2 /* SearchViewController.swift */,
+				D05A314024CDE7F200E92BC2 /* LoginViewController.swift */,
+				D05A315324D35FD300E92BC2 /* MovieListViewController.swift */,
+				D05A315B24D4F25300E92BC2 /* SingleMovieViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D05A313D24CDE55B00E92BC2 /* ExtensionAndVariables */ = {
+			isa = PBXGroup;
+			children = (
+				D05A313B24CDE55000E92BC2 /* Extensions.swift */,
+				D05A314524CE1CFE00E92BC2 /* Variables.swift */,
+			);
+			path = ExtensionAndVariables;
+			sourceTree = "<group>";
+		};
+		D05A314424CDED3100E92BC2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D05A314224CDED2C00E92BC2 /* LoginModel.swift */,
+				D05A314724CE7F7F00E92BC2 /* SearchModel.swift */,
+				D05A315D24D4F29800E92BC2 /* SingleMovieModel.swift */,
+				D05A314B24CF7F9500E92BC2 /* ListMovieData.swift */,
+				D05A315F24D4F8B900E92BC2 /* SingleMovieData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F61ED319846559F3B1979C9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB94C32800C3DE77FD03A51C /* Pods_Fabflix_iOS.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +166,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D01CDAE924BFFF0A0009C1E3 /* Build configuration list for PBXNativeTarget "Fabflix-iOS" */;
 			buildPhases = (
+				C93C23C99D2EAC9CC08B63DE /* [CP] Check Pods Manifest.lock */,
 				D01CDAD124BFFF070009C1E3 /* Sources */,
 				D01CDAD224BFFF070009C1E3 /* Frameworks */,
 				D01CDAD324BFFF070009C1E3 /* Resources */,
+				A0EAA9BD99875718AAF5420A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,21 +220,75 @@
 			buildActionMask = 2147483647;
 			files = (
 				D01CDAE524BFFF0A0009C1E3 /* LaunchScreen.storyboard in Resources */,
-				D01CDAE224BFFF0A0009C1E3 /* Assets.xcassets in Resources */,
+				D05A313A24CBC16600E92BC2 /* Assets.xcassets in Resources */,
+				D05A315A24D3A27B00E92BC2 /* MovieCell.xib in Resources */,
 				D01CDAE024BFFF070009C1E3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A0EAA9BD99875718AAF5420A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fabflix-iOS/Pods-Fabflix-iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fabflix-iOS/Pods-Fabflix-iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fabflix-iOS/Pods-Fabflix-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C93C23C99D2EAC9CC08B63DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fabflix-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D01CDAD124BFFF070009C1E3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D01CDADD24BFFF070009C1E3 /* ViewController.swift in Sources */,
+				D05A313F24CDE7AF00E92BC2 /* SearchViewController.swift in Sources */,
+				D05A315424D35FD300E92BC2 /* MovieListViewController.swift in Sources */,
+				D05A316024D4F8B900E92BC2 /* SingleMovieData.swift in Sources */,
+				D05A315924D3A27B00E92BC2 /* MovieCell.swift in Sources */,
+				D05A314C24CF7F9500E92BC2 /* ListMovieData.swift in Sources */,
+				D05A314624CE1CFE00E92BC2 /* Variables.swift in Sources */,
 				D01CDAD924BFFF070009C1E3 /* AppDelegate.swift in Sources */,
 				D01CDADB24BFFF070009C1E3 /* SceneDelegate.swift in Sources */,
+				D05A314324CDED2C00E92BC2 /* LoginModel.swift in Sources */,
+				D05A314824CE7F7F00E92BC2 /* SearchModel.swift in Sources */,
+				D05A314124CDE7F200E92BC2 /* LoginViewController.swift in Sources */,
+				D05A313C24CDE55000E92BC2 /* Extensions.swift in Sources */,
+				D05A315E24D4F29800E92BC2 /* SingleMovieModel.swift in Sources */,
+				D05A315C24D4F25300E92BC2 /* SingleMovieViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,9 +430,11 @@
 		};
 		D01CDAEA24BFFF0A0009C1E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4BCB1469C483E7E49211FE1 /* Pods-Fabflix-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P6YWS6Z735;
 				INFOPLIST_FILE = "Fabflix-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -299,9 +449,11 @@
 		};
 		D01CDAEB24BFFF0A0009C1E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAE8A3BC6934986100D16F79 /* Pods-Fabflix-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P6YWS6Z735;
 				INFOPLIST_FILE = "Fabflix-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
